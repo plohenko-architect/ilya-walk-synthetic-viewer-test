@@ -1,2 +1,3 @@
-# ilya-walk-synthetic-viewer-test
-Synthetic non-commercial viewer test; no real project data.
+# Synthetic 360 viewer test
+
+Two fictional spaces. No client project data. Temporary non-commercial technical test.

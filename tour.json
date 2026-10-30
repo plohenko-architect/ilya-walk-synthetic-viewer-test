@@ -1,0 +1,140 @@
+{
+  "title": "СИНТЕТИЧЕСКИЙ ТЕСТ — НЕ КЛИЕНТСКИЙ ПРОЕКТ",
+  "initialSceneId": "a1c7c0f5-6206-40c0-8486-fa9af7dc3efe",
+  "floors": [
+    {
+      "id": "floor-1",
+      "name": "Тестовый этаж 1",
+      "image": "plan-0.png"
+    },
+    {
+      "id": "floor-2",
+      "name": "Тестовый этаж 2",
+      "image": "plan-1.png"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a1c7c0f5-6206-40c0-8486-fa9af7dc3efe",
+      "name": "Тестовая точка 1",
+      "floorId": "floor-1",
+      "mapX": 50,
+      "mapY": 55,
+      "mapHeading": 0,
+      "image": "",
+      "styleImages": {
+        "Warm": {
+          "multiRes": {
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/1/%s0_0",
+            "extension": "png",
+            "tileResolution": 512,
+            "maxLevel": 1,
+            "cubeResolution": 324,
+            "basePath": "./tiles/a1c7c0f5-6206-40c0-8486-fa9af7dc3efe/Warm"
+          }
+        },
+        "Cool": {
+          "multiRes": {
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/1/%s0_0",
+            "extension": "png",
+            "tileResolution": 512,
+            "maxLevel": 1,
+            "cubeResolution": 324,
+            "basePath": "./tiles/a1c7c0f5-6206-40c0-8486-fa9af7dc3efe/Cool"
+          }
+        },
+        "Classic": {
+          "multiRes": {
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/1/%s0_0",
+            "extension": "png",
+            "tileResolution": 512,
+            "maxLevel": 1,
+            "cubeResolution": 324,
+            "basePath": "./tiles/a1c7c0f5-6206-40c0-8486-fa9af7dc3efe/Classic"
+          }
+        }
+      },
+      "hotspots": [
+        {
+          "id": "test-0",
+          "targetSceneId": "583af211-dbfe-449e-b573-6b06aac5407a",
+          "yaw": 0,
+          "pitch": -20,
+          "targetYaw": 0,
+          "actionText": "Подняться: Тестовый этаж 2"
+        }
+      ]
+    },
+    {
+      "id": "583af211-dbfe-449e-b573-6b06aac5407a",
+      "name": "Тестовая точка 2",
+      "floorId": "floor-2",
+      "mapX": 50,
+      "mapY": 55,
+      "mapHeading": 0,
+      "image": "",
+      "styleImages": {
+        "Warm": {
+          "multiRes": {
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/1/%s0_0",
+            "extension": "png",
+            "tileResolution": 512,
+            "maxLevel": 1,
+            "cubeResolution": 324,
+            "basePath": "./tiles/583af211-dbfe-449e-b573-6b06aac5407a/Warm"
+          }
+        },
+        "Cool": {
+          "multiRes": {
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/1/%s0_0",
+            "extension": "png",
+            "tileResolution": 512,
+            "maxLevel": 1,
+            "cubeResolution": 324,
+            "basePath": "./tiles/583af211-dbfe-449e-b573-6b06aac5407a/Cool"
+          }
+        },
+        "Classic": {
+          "multiRes": {
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/1/%s0_0",
+            "extension": "png",
+            "tileResolution": 512,
+            "maxLevel": 1,
+            "cubeResolution": 324,
+            "basePath": "./tiles/583af211-dbfe-449e-b573-6b06aac5407a/Classic"
+          }
+        }
+      },
+      "hotspots": [
+        {
+          "id": "test-1",
+          "targetSceneId": "a1c7c0f5-6206-40c0-8486-fa9af7dc3efe",
+          "yaw": 0,
+          "pitch": -20,
+          "targetYaw": 0,
+          "actionText": "Спуститься: Тестовый этаж 1"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "id": "Warm",
+      "label": "Warm"
+    },
+    {
+      "id": "Cool",
+      "label": "Cool"
+    },
+    {
+      "id": "Classic",
+      "label": "Classic"
+    }
+  ]
+}
